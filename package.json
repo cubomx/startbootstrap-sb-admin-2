@@ -16,6 +16,17 @@
         "admin",
         "app"
     ],
+    "browserslist": [
+        "> 1%",
+        "Chrome >= 60",
+        "Firefox >= 60",
+        "Edge >= 15.15063",
+        "Explorer 11",
+        "iOS >= 10",
+        "Safari >= 10",
+        "Android >= 6",
+        "not ExplorerMobile <= 11"
+    ],
     "homepage": "https://startbootstrap.com/theme/sb-admin-2",
     "bugs": {
         "url": "https://github.com/StartBootstrap/startbootstrap-sb-admin-2/issues",
@@ -35,20 +46,32 @@
         "bootstrap": "4.6.0",
         "chart.js": "2.9.4",
         "datatables.net-bs4": "1.10.24",
+        "gulp-cli": "^2.3.0",
         "jquery": "3.6.0",
         "jquery.easing": "^1.4.1"
     },
     "devDependencies": {
         "browser-sync": "2.26.14",
+        "css-mqpacker": "^7.0.0",
         "del": "6.0.0",
         "gulp": "4.0.2",
         "gulp-autoprefixer": "7.0.1",
         "gulp-clean-css": "4.3.0",
+        "gulp-cssnano": "^2.1.3",
+        "gulp-file-include": "^2.3.0",
         "gulp-header": "2.0.9",
+        "gulp-notify": "^4.0.0",
         "gulp-plumber": "^1.2.1",
-        "gulp-rename": "2.0.0",
+        "gulp-postcss": "^9.0.0",
+        "gulp-rename": "^2.0.0",
         "gulp-sass": "4.1.0",
+        "gulp-svgmin": "^4.1.0",
         "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
+        "merge-stream": "2.0.0",
+        "perfectionist": "^2.4.0",
+        "postcss": "^8.0.0",
+        "postcss-assets": "^6.0.0",
+        "postcss-loader": "^4.0.3",
+        "precss": "^4.0.0"
     }
 }

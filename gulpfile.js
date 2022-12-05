@@ -55,7 +55,7 @@ function css() {
 
   var processors = [
     precss(),
-    autoprefixer({browsers: browsers}),
+    autoprefixer(),
     assets({
       loadPaths: ['img/'],
       basePath: 'dest/',
