@@ -40,7 +40,7 @@ function clean() {
 }
 
 function html() {
-  return  gulp.src(./*.html')
+  return  gulp.src('./*.html')
     .pipe(fileinclude())
     .on('error', function(){notify('HTML include error');})
     .pipe(gulp.dest('dest/'));
